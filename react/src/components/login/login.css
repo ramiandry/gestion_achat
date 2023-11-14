@@ -1,0 +1,14 @@
+#cem-logo{
+    animation: animcem 3s ;
+    transition: 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animcem{
+    from {
+        transform: rotateY(0deg);
+      }
+      to {
+        transform: rotateY(360deg);
+      }
+}
